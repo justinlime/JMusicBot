@@ -1,6 +1,13 @@
 # JMusicBot Docker
 Fun practice for building docker images and containerizing software
 
+A pre-built image is available for use on [DockerHub](https://hub.docker.com/r/justinlime/jmusicbot)
+
+All credit to [jagrosh](https://github.com/jagrosh) on github 
+for his awesome [music bot](https://github.com/jagrosh/MusicBot) used to create this, view his repository 
+for more information on the bot
+
+
 ## Build
 clone the directory
 ```bash

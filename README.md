@@ -18,6 +18,16 @@ docker build -t myjmusicbot .
 ## Run
 After built, you can run the image, a few environment variables are required:
 ```bash
-docker run  -e TOKEN="{YOUR_DISOCRD_BOT_TOKEN}" -e OWNER="{OWNER_DISCORD_USER_ID}" -e PREFIX="PREFIX_FOR_COMMANDS" myjmusicbot
+docker run  -e TOKEN="{YOUR_DISOCRD_BOT_TOKEN}" -e OWNER="{OWNER_DISCORD_USER_ID}" -e PREFIX="{PREFIX_FOR_COMMANDS}" myjmusicbot
 ```
-PREFIX can be set to `@mention` as well
+Example:
+```bash
+docker run  -e TOKEN="NzE4NTU3OTg4OTY0ODg0NTg4.XuY5gQ.TmiRbw_WoApH0s2RXM-xHrpzxG8" -e OWNER="313417165581942745" -e PREFIX="!" myjmusicbot
+```
+If you aren't sure how to get a `TOKEN` and `OWNER` ID, check these guides:
+
+[How to get Discord Bot Token](https://jmusicbot.com/getting-a-bot-token/)
+
+[How to get Discord User ID](https://jmusicbot.com/finding-your-user-id/)
+
+`PREFIX` can be set to `@mention` as well

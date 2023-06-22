@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+    jmusicbot:
+        environment:
+            - TOKEN=
+            - OWNER=
+            - PREFIX=
+        image: justinlime/jmusicbot
+        restart: unless-stopped

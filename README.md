@@ -20,3 +20,4 @@ After built, you can run the image, a few environment variables are required:
 ```bash
 docker run  -e TOKEN="{YOUR_DISOCRD_BOT_TOKEN}" -e OWNER="{OWNER_DISCORD_USER_ID}" -e PREFIX="PREFIX_FOR_COMMANDS" myjmusicbot
 ```
+PREFIX can be set to `@mention` as well

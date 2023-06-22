@@ -31,6 +31,9 @@ Example:
 ```bash
 docker run  -e TOKEN="NzE4NTU3OTg4OTY0ODg0NTg4.XuY5gQ.TmiRbw_WoApH0s2RXM-xHrpzxG8" -e OWNER="313417165581942745" -e PREFIX="!" myjmusicbot
 ```
+
+## Details 
+
 If you aren't sure how to get a `TOKEN` and `OWNER` ID, check these guides:
 
 [How to get Discord Bot Token](https://jmusicbot.com/getting-a-bot-token/)

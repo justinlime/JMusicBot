@@ -4,6 +4,15 @@ services:
         environment:
             - TOKEN=
             - OWNER=
-            - PREFIX=
+            - GAME=
+            - STATUS=
+            - SONGINSTATUS=
+            - ALTPREFIX=
+            - HELP=
+            - STAYINCHANNEL=
+            - MAXTIME=
+            - ALONETIMEUNTILSTOP=
+            - UPDATEALERTS=
+            - LYRICSDEFAULT=
         image: justinlime/jmusicbot
         restart: unless-stopped

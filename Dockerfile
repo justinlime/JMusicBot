@@ -1,7 +1,20 @@
-FROM openjdk:11
+FROM ibmjava:jre
 ADD JMusicBot-0.3.9.jar .
 ADD config.txt .
-ADD edit_variables.sh .
-CMD ["./edit_variables.sh"]
+ADD startup.sh .
+ENV TOKEN="BOT_TOKEN_HERE"
+ENV OWNER="0"
+ENV PREFIX="@mention"
+ENV GAME="DEFAULT"
+ENV STATUS="ONLINE"
+ENV SONGINSTATUS="false"
+ENV ALTPREFIX="NONE"
+ENV HELP="help"
+ENV STAYINCHANNEL="false"
+ENV MAXTIME="0"
+ENV ALONETIMEUNTILSTOP="0"
+ENV UPDATEALERTS="true"
+ENV LYRICSDEFAULT="A-Z Lyrics"
+CMD ["./startup.sh"]
 
 

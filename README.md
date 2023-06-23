@@ -33,25 +33,25 @@ docker run  -e TOKEN="NzE4NTU3OTg4OTY0ODg0NTg4.XuY5gQ.TmiRbw_WoApH0s2RXM-xHrpzxG
 ```
 
 ## Required Environment Variables
-* `TOKEN=""`
-* `OWNER=""`
+* `TOKEN=`
+* `OWNER=`
 
 ## Optional Environment Variables
 These options are optional to change, if unchanged they will remain as default
 
 ### The mentioned variables and their default values:
-* `PREFIX="@mention"`
-* `GAME="DEFAULT"`
-* `STATUS="ONLINE"`
-* `SONGINSTATUS="false"`
-* `ALTPREFIX="NONE"`
-* `HELP="help"`
+* `PREFIX=@mention`
+* `GAME=DEFAULT`
+* `STATUS=ONLINE`
+* `SONGINSTATUS=false`
+* `ALTPREFIX=NONE`
+* `HELP=help`
 * `NPIMAGES=false`
-* `STAYINCHANNEL="false"`
-* `MAXTIME="0"`
-* `ALONETIMEUNTILSTOP="0"`
-* `UPDATEALERTS="true"`
-* `LYRICSDEFAULT="A-Z Lyrics"`
+* `STAYINCHANNEL=false`
+* `MAXTIME=0`
+* `ALONETIMEUNTILSTOP=0`
+* `UPDATEALERTS=true`
+* `LYRICSDEFAULT=A-Z Lyrics`
 
 ### See [The config file for more options](https://jmusicbot.com/config/)
 
@@ -63,4 +63,3 @@ If you aren't sure how to get a `TOKEN` and `OWNER` ID, check these guides:
 
 [How to get Discord User ID](https://jmusicbot.com/finding-your-user-id/)
 
-`PREFIX` can be set to `@mention` as well

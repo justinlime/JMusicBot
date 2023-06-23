@@ -1,4 +1,4 @@
-FROM ibmjava:jre
+FROM openjdk:11
 ADD JMusicBot-0.3.9.jar .
 ADD config.txt .
 ADD startup.sh .

@@ -46,6 +46,7 @@ These options are optional to change, if unchanged they will remain as default
 * `SONGINSTATUS="false"`
 * `ALTPREFIX="NONE"`
 * `HELP="help"`
+* `NPIMAGES=false`
 * `STAYINCHANNEL="false"`
 * `MAXTIME="0"`
 * `ALONETIMEUNTILSTOP="0"`

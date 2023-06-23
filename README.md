@@ -42,15 +42,15 @@ These options are optional to change, if unchanged they will remain as default
 ### The mentioned variables and their default values:
 * `PREFIX="@mention"`
 * `GAME="DEFAULT"`
-* `STATUS="ONLINE`
-* `SONGINSTATUS="false`
-* `ALTPREFIX="NONE`
-* `HELP="help`
-* `STAYINCHANNEL="false`
-* `MAXTIME="0`
-* `ALONETIMEUNTILSTOP="0`
-* `UPDATEALERTS="true`
-* `LYRICSDEFAULT="A-Z Lyrics`
+* `STATUS="ONLINE"`
+* `SONGINSTATUS="false"`
+* `ALTPREFIX="NONE"`
+* `HELP="help"`
+* `STAYINCHANNEL="false"`
+* `MAXTIME="0"`
+* `ALONETIMEUNTILSTOP="0"`
+* `UPDATEALERTS="true"`
+* `LYRICSDEFAULT="A-Z Lyrics"`
 
 ### See [The config file for more options](https://jmusicbot.com/config/)
 

@@ -14,5 +14,5 @@ services:
             - ALONETIMEUNTILSTOP=
             - UPDATEALERTS=
             - LYRICSDEFAULT=
-        image: justinlime/jmusicbot
+        image: justinlime/jmusicbot:latest
         restart: unless-stopped

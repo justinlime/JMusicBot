@@ -10,6 +10,7 @@ services:
             - SONGINSTATUS=
             - ALTPREFIX=
             - HELP=
+            - NPIMAGES=
             - STAYINCHANNEL=
             - MAXTIME=
             - ALONETIMEUNTILSTOP=
